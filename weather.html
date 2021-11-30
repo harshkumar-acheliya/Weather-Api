@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/e7bf388316.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather Api</title>
+</head>
+
+<body>
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        You can get here <b>Weather Information</b>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+
+
+    <div class="container">
+
+        <!-- code of search box -->
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input id="input1" class="form-control me-2" type="search" placeholder="Enter City Name" aria-label="Search">
+                    <button id='btn1' class="btn btn-success" type="button">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- code of other body -->
+        <div class="weather_city_name" id="weather_city_name">
+            City Name
+        </div>
+
+        <div class="weather_icon" id="weather_icon">
+            <i class="fas fa-sun"></i>
+        </div>
+
+        <div class="weather_temp" id="weather_temp">
+            Temp<span class="weather_temp_unit">°C</span>
+        </div>
+        <div class="clouds" id="clouds">Clear</div>
+
+        <div>
+            <pre class="weather_day" id="weather_day">Day , Date/Month/Year</pre> 
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    -->
+    <script src="weather.js"></script>
+</body>
+
+</html>

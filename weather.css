@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background: url(https://source.unsplash.com/1600x900/?weather);
+    
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 293px;
+    height: 355px;
+    background: hsl(233deg 5% 74%);
+    border-radius: 28px;
+    box-shadow: 2px 2px 12px 8px #404040;
+    margin-top: 70px;
+    opacity: 0.8;
+    
+}
+.d-flex {
+    display: flex!important;
+    margin-top: 10px;
+}
+.weather_city_name{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    margin: 13px;
+    
+    color: hsl(0deg 100% 54%);
+    
+}
+.weather_temp{
+    font-family: fantasy;
+    font-size: 45px;
+    
+    margin: 10px;
+}
+.weather_temp_unit{
+    font-size: large;
+    font-family: 'Font Awesome 5 Free';
+    
+}
+
+.weather_icon .fa-sun {
+    font-size: larger;
+    position: relative;
+    color: rgb(250, 234, 12);
+    animation-name: icon;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    margin: 13px;
+    
+}
+.weather_icon .fa-cloud-sun{
+    font-size: larger;
+    position: relative;
+    color: rgb(250, 234, 12);
+    animation-name: icon;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    margin: 13px;
+    
+}
+.weather_icon .fa-cloud {
+    font-size: larger;
+    position: relative;
+    color: whitesmoke;
+    animation-name: icon;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    margin: 13px;
+    
+}
+.weather_icon .fa-smog{
+    font-size: larger;
+    position: relative;
+    color: hsl(139deg 36% 82%);
+    animation-name: icon;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    margin: 13px;
+    
+}
+.weather_icon .fa-cloud-showers-heavy{
+    font-size: larger;
+    position: relative;
+    color: rgb(88, 150, 231);
+    animation-name: icon;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    margin: 13px;
+}
+
+
+@keyframes icon {
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform: scale(2.8);
+    }
+}
+
+.clouds{
+    font-size: 30px;
+    font-family: 'Abril Fatface';
+    color: hsl(240deg 100% 50%);
+    padding-right: 10px;
+    margin: -9px; 
+}
+.weather_day{
+    
+    font-family: 'Lobster', cursive;
+    font-size: larger;
+    margin-top: 16px;
+}
+.weather_date{
+    margin: 13px;
+}
+
+
